@@ -265,7 +265,8 @@ updatedw() {
 prm() { chmod +x *.\$1; }
 txt() { cat \$1.*; }
 figlet $uname
-PS1='\033[1;91m▪Mr▪Af2▪[\033[1;93m\W\033[1;91m] 》 \033[1;92m'
+PS1='\033[1;91m▪Mr▪Af2▪[\033[1;93m\W\033[1;91m]
+》 \033[1;92m'
 if [ -d \"\$HOME/StylingByAf2\" ]
 then
 	if grep -q '# 011' \"/data/data/com.termux/files/home/StylingByAf2/.user.cfg\"
